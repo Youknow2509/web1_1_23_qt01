@@ -1,0 +1,20 @@
+body {
+    background-color: rgb(88, 84, 71);
+    color: white;
+}
+.h1{
+    color: rgb(167, 194, 244);
+}
+.image-container {
+    display: inline-block;
+    margin: 10px;
+}
+.span1{
+ color:  rgb(222, 199, 106);
+}
+.italic-text {
+    font-style: italic;
+}
+.span2{
+    color: red;
+}
