@@ -1,0 +1,15 @@
+
+h2{
+    color: rgb(71, 119, 178);
+    background-color: rgb(191, 209, 232); /* Đặt màu nền chữ*/
+}
+.b{
+    border:1px;
+}
+img {
+    width: 35%;
+    position: absolute;
+    top: 80px;
+    right: 0;
+}
+
