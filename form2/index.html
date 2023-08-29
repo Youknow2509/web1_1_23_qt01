@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="css/index.css" rel="stylesheet">
+</head>
+<body>
+    <div>
+        <p style="display: inline;">Bộ gõ Tiếng Việt:</p>
+        <form style="display: inline;">
+            <input type="radio" id="html" name="fav_language" value="off">
+            <label for="off">Off</label>
+            <input type="radio" id="css" name="fav_language" value="Telex">
+            <label for="Telex">Telex</label>
+            <input type="radio" id="javascript" name="fav_language" value="Vni">
+            <label for="Vni">Vni</label>
+            <input type="radio" id="javascript" name="fav_language" value="VIQR">
+            <label for="VIQR">VIQR</label>
+        </form>
+        <hr>
+    </div>
+    <table class="tb">
+        <tr>
+            <td colspan="2"><label for="khuvucsong" class="t"><span>*</span> Chọn khu vực sống:</label></td>
+            <td>
+                <select name="khuvucsong" id="khuvucsong">
+                    <option value="--Chọn khu vực sinh sống">--Chọn khu vực sinh sống</option>
+                    <option value="hanoi">Hà Nội</option>
+                    <option value="hanoi">Hồ Chí Minh</option>
+                    <option value="danang">Đà Nẵng</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="tentruycap" class="t"><span>*</span> Tên truy cập: </label></td>
+            <td colspan="2"><input type="text" placeholder="Tên truy cập" name="tentruycap"></td>
+        </tr>
+        <tr>
+            <td><label for="matkhau" class="t"><span>*</span> Mật khẩu: </label></td>
+            <td colspan="2"><input type="text" placeholder="Mật khẩu" name="matkhau"></td>
+        </tr>
+        <tr>
+            <td><label for="xacnhanmaukhau" class="t"><span>*</span>Xác nhận mật khẩu: </label></td>
+            <td colspan="2"><input type="text" placeholder="Xác nhận mật khẩu" name="xacnhanmaukhau"></td>
+        </tr>
+        <tr>
+            <td><label for="tendaydu" class="t"><span>*</span>Tên đầy đủ: </label></td>
+            <td colspan="2"><input type="text" placeholder="Tên đầy đủ" id="tendaydu" name="tendaydu"></td>
+        </tr>
+        <tr>
+            <td><label for="email" class="t"><span>*</span>Email: </label></td>
+            <td colspan="2"><input type="text" placeholder="Email" id="email" name="email"></td>
+        </tr>
+        <tr>
+            <td><label for="moble" class="t"><span>*</span>Moble: </label></td>
+            <td colspan="2"><input type="cel" placeholder="Số di động" name="moble"></td>
+        </tr>
+        <tr>
+            <td><label for="sodienthoaikhac" class="t">Số điện thoại khác: </label></td>
+            <td colspan="2"><input type="cel" name="sodienthoaikhac"></td>
+        </tr>
+        <tr>
+            <td><label for="website" class="t">Website: </label></td>
+            <td colspan="2"><input type="text" name="website"></td>
+        </tr>
+        <tr>
+            <td><label for="diachi" class="t"><span>*</span>Địa chỉ: </label></td>
+            <td colspan="2"><input type="text" placeholder="Ghi địa chỉ của bạn" name="diachi"></td>
+        </tr>
+        <tr>
+            <td><label for="masobaove" class="t">Mã số bảo vệ: </label></td>
+            <td><input type="text" placeholder="Nhập mã an toàn" name="diachi"></td>
+            <td style="font-family: 'Courier New', Courier, monospace;" id="mabaove">A B C</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><span>(Chú ý: Phân biệt chữ in hoa, in thường và không có dấu cách)</span></td>
+        </tr>
+    </table>    
+    <input type="checkbox" name="dongy" id="dongy">
+    <label for="dongy">Tôi đồng ý với Quy định đăng tin và Quy chế thành viên của www.muabanôt.vn</label><br>
+    <input type="button" name="dangky" id="dangky" value="Đăng ký">
+    <input type="button" name="lamlai" id="lamlai" value="Làm lại">
+</body>
+</html>

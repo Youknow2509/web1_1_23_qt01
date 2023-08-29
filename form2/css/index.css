@@ -1,0 +1,34 @@
+hr{
+    border: none;
+    border-top: 1.5px dotted #333;
+    height: 0;
+    margin: 20px 0;
+}
+span{
+    color: red;
+}
+select#khuvucsong {
+    background-color:yellow;
+}
+input, select#khuvucsong{
+    outline: 1px solid rgb(75, 189, 231);
+}
+
+input#tendaydu, input#email{
+    background-color: yellow;
+    color: white;
+}
+td#mabaove{
+    outline: 1px solid rgb(75, 189, 231);
+    background-color: rgb(170, 197, 221);
+}
+th,td {
+    border: 1px solid black;
+}
+table{
+    table-layout: fixed;
+    width: 100%;  
+}
+.t{
+    text-align: center;
+}
