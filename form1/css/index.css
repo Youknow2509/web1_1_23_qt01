@@ -1,0 +1,21 @@
+.text-center {
+    text-align: center;
+}
+input{
+    width: 100%;
+    border-top: none;
+    border-right: none;
+    border-bottom: 1px solid black;
+} 
+li{
+    font-weight: bold;
+}
+span{
+    color: red;
+}
+table{
+    min-width: 800px;
+}
+td{
+    padding: 3px;
+}
