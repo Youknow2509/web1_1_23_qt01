@@ -1,0 +1,1 @@
+# http://asblasjdo.infinityfreeapp.com/P01_PhotoShootEffect/photo-shoot-effect.html?i=1
