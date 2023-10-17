@@ -1,2 +1,2 @@
-# Link: https://asblasjdo.infinityfreeapp.com/demau/
+# Link:  http://asblasjdo.infinityfreeapp.com/demau/
 # sever error up img 
