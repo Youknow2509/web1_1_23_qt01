@@ -1,0 +1,27 @@
+@media (max-width: 782px) {
+    .header-logo__img img{
+        width: 100vw;
+    }
+    .header-logo {
+        flex-direction: column;
+    }
+    .news {
+        flex-direction: column;
+        width: 100%;
+    }
+    .hotnews {
+        flex-direction: column;
+    }
+    .list-nav li{
+        width: 100%;
+    }
+    img {
+        width: 100%;
+    }
+    .item {
+        margin: 0;
+    }
+    .title {
+        text-align: center;
+    }
+}
